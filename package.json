@@ -1,6 +1,6 @@
 {
     "name": "tscreate",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "this is for typescript package initing with building ignore,src-folder,build-foler,types-folder and ts-compiling",
     "bin": {
         "tscreate": "./index.js"
