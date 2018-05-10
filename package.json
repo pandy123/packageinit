@@ -1,0 +1,30 @@
+{
+    "name": "tscreate",
+    "version": "1.0.0",
+    "description": "this is for typescript package initing with building ignore,src-folder,build-foler,types-folder and ts-compiling",
+    "bin": {
+        "tscreate": "./index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pandy123/packageinit.git"
+    },
+    "keywords": [
+        "js",
+        "node",
+        "npm",
+        "package"
+    ],
+    "author": "Yanbei.HUANG",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/pandy123/packageinit/issues"
+    },
+    "homepage": "https://github.com/pandy123/packageinit#readme",
+    "dependencies": {
+        "stringtypebuffer": "^1.0.8"
+    }
+}
