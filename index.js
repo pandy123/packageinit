@@ -26,9 +26,10 @@ var createInit = function() {
     if (!fs.existsSync(typepath)) {
         fs.mkdir(typepath)
     }
-    var ignorefile = new StringBuffer().pushString(currentpath).pushString('/.gitignore').toString()
+    var ignorefile = new StringBuffer().pushString(currentpath).pushString('/gitignore').toString()
     if (!fs.existsSync(ignorefile)) {
-        copyFile(basePath + '/template/.gitignore', currentpath + '/.gitignore')
+        copyFile(basePath + '/template/gitignore', currentpath + '/gitignore')
+        fs.rename(currentpath + '/gitignore', currentpath + '/.gitignore')
     }
 
     var tsconfigfile = new StringBuffer().pushString(currentpath).pushString('/tsconfig.json').toString()
